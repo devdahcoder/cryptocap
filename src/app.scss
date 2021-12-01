@@ -1,0 +1,10 @@
+.root--app {
+    position: relative;
+
+    .main--app {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+}
