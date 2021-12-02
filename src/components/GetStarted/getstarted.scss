@@ -1,0 +1,42 @@
+@import "../../styles/mixins";
+
+.portfolio--container {
+    @include flex-row-center;
+    height: 100%;
+    padding: 10em 0;
+    color: hsl(168, 15%, 94%);
+    // scale out animation
+    // transform: scale(1);
+    // transition: transform 0.5s ease-in-out;
+    animation: scale-out 1s ease-in-out;
+
+    .portfolio--display {
+        @include flex-column-center;
+        text-align: center;
+
+        .portfolio--display--title {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .portfolio--display--content {
+            margin: 1.5rem 0;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            line-height: 1.8;
+            color: hsl(0, 0%, 71%);
+        }
+    }
+
+    @keyframes scale-out {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+}

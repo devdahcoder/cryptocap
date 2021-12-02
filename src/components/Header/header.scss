@@ -1,12 +1,123 @@
+@import "../../styles/mixins";
+
 .main--app--header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    // height: 100vh;
+    @include flex-display-direction(row);
+    @include flex-align-items(center);
     width: 100vw;
-    background-color: #f5f5f5;
-    // font-size: 1.5rem;
-    font-weight: bold;
-    // text-align: center;
-    // padding: 1rem;
+    height: 4em;
+
+    .main--header--display {
+        @include flex-display-direction(row);
+        @include flex-align-items(center);
+        @include flex-justify-content(space-between);
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+
+        .header--logo--container {
+            @include flex-row-center;
+
+            .header--logo--display {
+                @include flex-row-center;
+
+            }
+        }
+
+        .header--link--container {
+            @include flex-row-center;
+
+            .header--link--nav {
+                @include flex-row-center;
+
+                .header--link--ul {
+                    @include flex-display-direction(row);
+                    @include flex-align-items(center);
+                    @include flex-justify-content(space-between);
+                    list-style: none;
+
+                    .header--link--li {
+                        @include flex-row-center;
+
+                        .header--link {
+                            @include flex-row-center;
+                            text-decoration: none;
+                            padding: 0.6em;
+                            color: hsl(168, 15%, 94%);
+                        }
+
+                        &:nth-child(2) {
+                            margin: 0 0.5em;
+                        }
+                        &:nth-child(3) {
+                            margin: 0 0.5em;
+                        }
+                        &:nth-child(4) {
+                            margin: 0 0.5em;
+                        }
+                    }
+                }
+            }
+        }
+
+        .header--auth--container {
+            @include flex-row-center;
+
+            .header--auth--display {
+                @include flex-row-center;
+
+                .language--select--container {
+
+                    .language--select--display {
+                        align-items: stretch;
+                        border: 0 solid #000;
+                        box-sizing: border-box;
+                        flex-direction: column;
+                        color: hsl(168, 15%, 94%);
+                        flex-shrink: 0;
+                        padding: 0;
+                        position: relative;
+                        font-size: 12px;
+                        line-height: 16px;
+                        // margin: -2px 0 -3px;
+                        font-weight: 400;
+                        display: block;
+
+                        .language--select--span {
+                            border: 0;
+                            cursor: pointer;
+                            display: inline-block;
+                            position: relative;
+                            vertical-align: top;
+                            font-weight: 400;
+
+                            .language--select--main--text--container {
+                                @include flex-row-center;
+                                vertical-align: middle;
+
+                                .language--select--main--text {
+                                    margin: 0 0.5em;
+                                }
+                            }
+                        }
+
+                        .language--select--main--container {
+                            cursor: pointer;
+                            height: 100%;
+                            left: 0;
+                            opacity: 0;
+                            position: absolute;
+                            top: 0;
+                            width: 100%;
+                        }
+
+                    }
+                }
+
+                .auth--container {
+                    margin: 0 1em 0 0;
+                }
+
+            }
+        }
+    }
 }

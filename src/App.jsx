@@ -2,6 +2,7 @@ import './app.scss';
 
 // imported components
 import Header from './components/Header/Header';
+import GetStarted from './components/GetStarted/GetStarted';
 
 function App() {
 
@@ -10,6 +11,11 @@ function App() {
     <div className="root--app">
 
       <Header />
+
+      <div className="main--app">
+        <GetStarted />
+      </div>
+
 
     </div>
 

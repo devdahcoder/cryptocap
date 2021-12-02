@@ -27,4 +27,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 400;
+  background-color: hsl(0, 41%, 3%);
 }
