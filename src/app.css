@@ -1,0 +1,12 @@
+.root--app {
+  position: relative;
+  height: 100%;
+}
+
+.root--app .main--app {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=app.css.map */

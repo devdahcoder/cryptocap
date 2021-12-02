@@ -1,0 +1,135 @@
+.market--list--item--container {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  padding: 0 1em;
+}
+
+.market--list--item--container .market--list--item--display {
+  display: flex;
+  flex-direction: column;
+}
+
+.market--list--item--container .market--list--item--display .market--list--name--logo--container {
+  padding: 1.5em 0;
+}
+
+.market--list--item--container .market--list--item--display .market--list--name--logo--container .market--list--name--logo--display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.market--list--item--container .market--list--item--display .market--list--name--logo--container .market--list--name--logo--display .market--list--logo--container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.market--list--item--container .market--list--item--display .market--list--name--logo--container .market--list--name--logo--display .market--list--logo--container .market--list--name--logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.market--list--item--container .market--list--item--display .market--list--name--logo--container .market--list--name--logo--display .market--list--logo--container .market--list--short--name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.market--list--item--container .market--list--item--display .market--list--name--logo--container .market--list--name--logo--display .market--list--logo--container .market--list--short--name .market--list--short--name--text {
+  font-weight: 500;
+  color: #edf2f1;
+}
+
+.market--list--item--container .market--list--item--display .market--list--name--logo--container .market--list--name--logo--display .market--list--logo--container .market--list--name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.market--list--item--container .market--list--item--display .market--list--name--logo--container .market--list--name--logo--display .market--list--logo--container .market--list--name .market--list--name--text {
+  font-size: 0.9em;
+  font-weight: 400;
+  background: #c7c7c7;
+  border-radius: 4px;
+  text-align: center;
+  color: #1d1429;
+  padding: 0.1em 0.3em;
+}
+
+.market--list--item--container .market--list--item--display .market--list--name--logo--container .market--list--name--logo--display .market--list--logo--container .coin--name--market {
+  margin-left: 0.8em;
+}
+
+.market--list--item--container .market--list--item--display .market--list--name--logo--container .market--list--chart--arrow--logo--container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.market--list--item--container .market--list--item--display .market--list--name--logo--container .market--list--chart--arrow--logo--container .market--list--chart--arrow--logo--display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  opacity: 0.05;
+  border-radius: 100vh;
+  width: 2.5em;
+  height: 2.5em;
+  cursor: pointer;
+}
+
+.market--list--item--container .market--list--item--display .market--list--item--line {
+  background: #edf2f1;
+  opacity: 0.05;
+  height: 0.1em;
+  width: 100%;
+}
+
+.market--list--item--container .market--list--item--display .market--list--price--container {
+  padding: 1.5em 0;
+  padding: calc(1.5em - 0.5em) 0;
+}
+
+.market--list--item--container .market--list--item--display .market--list--price--container .market--list--price--display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.market--list--item--container .market--list--item--display .market--list--price--container .market--list--price--display .market--list--price--percentage {
+  display: flex;
+  flex-direction: column;
+}
+
+.market--list--item--container .market--list--item--display .market--list--price--container .market--list--price--display .market--list--price--percentage .market--list--price {
+  font-weight: 500;
+  font-size: 1.3em;
+  color: #edf2f1;
+}
+
+.market--list--item--container .market--list--item--display .market--list--price--container .market--list--price--display .market--list--price--percentage .market--list--padding {
+  padding: 0.5em 0;
+}
+
+.market--list--item--container .market--list--item--display .market--list--price--container .market--list--price--display .market--list--price--percentage .market--list--percentage {
+  font-weight: 300;
+  font-size: 1em;
+  color: #b5b5b5;
+}
+
+.market--list--item--container .market--list--item--display .market--list--price--container .market--list--price--display .market--list--chart--container .market--list--chart--display svg {
+  width: 100%;
+  height: 40px;
+}
+/*# sourceMappingURL=markettrenditem.css.map */

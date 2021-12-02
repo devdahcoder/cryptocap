@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,+BAA+B,CAAC;ECY5B,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CDL1B;;AAVD,AAII,+BAJ2B,CAI3B,6BAA6B,CAAC;EAC1B,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,eAAe,EAAE,GAAG;EACpB,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "markettrendlist.scss",
+        "../../styles/_mixins.scss"
+    ],
+    "names": [],
+    "file": "markettrendlist.css"
+}

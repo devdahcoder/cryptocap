@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,yBAAyB,CAAC;EACtB,OAAO,EAAE,KAAK;CAkBjB;;AAnBD,AAKQ,yBALiB,CAGrB,uBAAuB,CAEnB,iCAAiC,CAAC;EAC9B,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,UAAU;EACvB,OAAO,EAAE,OAAO;CAQnB;;AAjBT,AAWY,yBAXa,CAGrB,uBAAuB,CAEnB,iCAAiC,CAM7B,4BAA4B,CAAC;EACzB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,OAAkB;CAC5B",
+    "sources": [
+        "markettrend.scss"
+    ],
+    "names": [],
+    "file": "markettrend.css"
+}

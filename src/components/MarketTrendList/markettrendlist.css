@@ -1,0 +1,14 @@
+.market--trend--list--container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.market--trend--list--container .market--trend--list--display {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1em;
+  width: 100%;
+}
+/*# sourceMappingURL=markettrendlist.css.map */

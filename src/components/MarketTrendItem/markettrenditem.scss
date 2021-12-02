@@ -1,0 +1,124 @@
+@import "../../styles/mixins";
+
+.market--list--item--container {
+    background: hsla(0, 0%, 100%, 0.02);
+    border: 1px solid hsla(0, 0%, 100%, 0.05);
+    border-radius: 18px;
+    padding: 0 1em;
+
+    .market--list--item--display {
+        display: flex;
+        flex-direction: column;
+
+        .market--list--name--logo--container {
+            padding: 1.5em 0;
+            .market--list--name--logo--display {
+                @include flex-display-direction(row);
+                @include flex-align-items(center);
+                @include flex-justify-content(space-between);
+
+                .market--list--logo--container {
+                    @include flex-row-center;
+
+                    .market--list--name--logo {
+                        @include flex-column-center;
+
+                        // .market--list--image {
+                        //     width: 100%;
+                        //     height: 100%;
+                        // }
+                    }
+
+                    .market--list--short--name {
+                        @include flex-row-center;
+
+                        .market--list--short--name--text {
+                            font-weight: 500;
+                            color: hsl(168, 15%, 94%);
+                        }
+                    }
+
+                    .market--list--name {
+                        @include flex-row-center;
+
+                        .market--list--name--text {
+                            font-size: 0.9em;
+                            font-weight: 400;
+                            background: hsl(0, 0%, 78%);
+                            border-radius: 4px;
+                            text-align: center;
+                            color: hsl(266, 34%, 12%);
+                            padding: 0.1em 0.3em;
+                        }
+                    }
+
+                    .coin--name--market {
+                        margin-left: 0.8em;
+                    }
+                }
+            }
+
+            .market--list--chart--arrow--logo--container {
+                @include flex-row-center;
+
+                .market--list--chart--arrow--logo--display {
+                    @include flex-row-center;
+                    background: hsl(0, 0%, 100%);
+                    opacity: 0.05;
+                    border-radius: 100vh;
+                    width: 2.5em;
+                    height: 2.5em;
+                    cursor: pointer;
+
+                }
+            }
+        }
+        
+        .market--list--item--line {
+            background: hsl(168, 15%, 94%);
+            opacity: 0.05;
+            height: 0.1em;
+            width: 100%;
+        }
+
+        .market--list--price--container {
+            padding: 1.5em 0;
+            padding: calc(1.5em - 0.5em) 0;
+
+            .market--list--price--display {
+                @include flex-display-direction(row);
+                @include flex-align-items(center);
+                @include flex-justify-content(space-between);
+
+                .market--list--price--percentage {
+                    @include flex-display-direction(column);
+
+                    .market--list--price {
+                        font-weight: 500;
+                        font-size: 1.3em;
+                        color: hsl(168, 15%, 94%);
+                    }
+
+                    .market--list--padding {
+                        padding: 0.5em 0;
+                    }
+
+                    .market--list--percentage {
+                        font-weight: 300;
+                        font-size: 1em;
+                        color: hsl(0, 0%, 71%);
+                    }
+                }
+
+                .market--list--chart--container {
+                    .market--list--chart--display {
+                        svg {
+                            width: 100%;
+                            height: 40px;   
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

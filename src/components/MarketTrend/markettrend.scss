@@ -1,0 +1,20 @@
+.market--trend--container {
+    padding: 1em 0;
+
+    .market--trend--display {
+
+        .market--trend--header--container {
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            padding: 1.6em 0;
+
+            .market--trend--header--text {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                color: hsl(168, 15%, 94%);
+            }
+        }
+    }
+}

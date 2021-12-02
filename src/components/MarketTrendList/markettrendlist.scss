@@ -1,0 +1,13 @@
+@import "../../styles/mixins";
+
+.market--trend--list--container {
+    @include flex-row-center;
+    // border: 1px solid white;
+
+    .market--trend--list--display {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 1em;
+        width: 100%;
+    }
+}

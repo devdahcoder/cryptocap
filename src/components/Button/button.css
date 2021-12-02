@@ -1,0 +1,20 @@
+.button--container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  background: #0fae96;
+  border-radius: 10px;
+  color: white;
+  border: 0px solid black;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 0.6em 1.6em;
+  white-space: nowrap;
+  outline: none;
+}
+/*# sourceMappingURL=button.css.map */
