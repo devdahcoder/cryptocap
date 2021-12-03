@@ -1,0 +1,42 @@
+@import "../../styles/mixins";
+
+.new--crypto--container {
+    border: 1px solid hsla(0, 0%, 100%, 0.08);
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    .new--crypto--display {
+        @include flex-display-direction(row);
+        @include flex-align-items(center);
+        @include flex-justify-content(space-between);
+        width: 100%;
+        padding: 1.2em 3em;
+
+        .new--crypto--content--container {
+            .new--crypto--content--text {
+                @include flex-display-direction(column);
+                width: 100%;
+                .new--crypto--content--header {
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: hsl(168, 15%, 94%);
+                    margin-bottom: 0.7em;
+                }
+
+                .new--crypto--content--body {
+                    font-size: 0.9rem;
+                    line-height: 130%;
+                    color: hsl(0, 0%, 71%);
+                }
+            }
+        }
+
+        .new--crypto--btn--container {
+            width: 100%;
+            @include flex-display-direction(row);
+            @include flex-align-items(flex-end);
+            @include flex-justify-content(flex-end);
+        }
+    }
+}
