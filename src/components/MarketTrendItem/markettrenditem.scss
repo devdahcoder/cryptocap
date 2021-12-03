@@ -69,6 +69,12 @@
                     width: 2.5em;
                     height: 2.5em;
                     cursor: pointer;
+                    transition: all 0.5s ease-in-out;
+
+
+                    &:hover {
+                        opacity: 1;
+                    }
 
                 }
             }
