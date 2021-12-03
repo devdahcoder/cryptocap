@@ -4,6 +4,7 @@ import './app.scss';
 import Header from './components/Header/Header';
 import GetStarted from './components/GetStarted/GetStarted';
 import MarketTrend from './components/MarketTrend/MarketTrend';
+import Features from "./components/Features/Features";
 
 function App() {
 
@@ -14,9 +15,13 @@ function App() {
       <Header />
 
       <div className="main--app">
+        
         <GetStarted />
 
         <MarketTrend />
+
+        <Features />
+
       </div>
 
 

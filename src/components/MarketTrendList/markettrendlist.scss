@@ -2,7 +2,6 @@
 
 .market--trend--list--container {
     @include flex-row-center;
-    // border: 1px solid white;
 
     .market--trend--list--display {
         display: grid;

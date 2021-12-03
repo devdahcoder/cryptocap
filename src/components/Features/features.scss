@@ -1,0 +1,41 @@
+@import "../../styles/mixins";
+
+.features--container {
+    padding: 6em 0;
+
+    .features--display {
+        @include flex-display-direction(column);
+
+        .features--header--container {
+            @include flex-display-direction(column);
+            width: 100%;
+            text-align: center;
+
+            .features--header--display {
+                @include flex-display-direction(column);
+
+                .features--header--title--container {
+                    @include flex-row-center;
+
+                    .features--header--title--text {
+                        font-size: 36px;
+                        line-height: 44px;
+                        text-align: center;
+                        color: #ECF1F0;
+                    }
+                }
+
+                .features--sub--header--title--container {
+                    @include flex-row-center;
+                    margin: 1em 0 3em 0;
+
+                    .features--sub--header--title--text {
+                        font-size: 18px;
+                        text-align: center;
+                        color: #B6B6B6;
+                    }
+                }
+            }
+        }
+    }
+}

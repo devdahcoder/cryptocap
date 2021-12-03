@@ -1,0 +1,15 @@
+@import "../../styles/mixins";
+
+.features--list--container{
+    @include flex-row-center;
+
+    .features--list--display {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-column: repeat(4, 1fr);
+        // grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-column-gap: 1em;
+        width: 100%;
+    }
+}
